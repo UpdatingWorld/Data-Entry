@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.ramesh{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-image:url("https://c4.wallpaperflare.com/wallpaper/65/407/692/nature-white-flowers-flowers-depth-of-field-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reg-form{
+    height: 400px;
+    width: 400px;
+    background: transparent;
+    backdrop-filter: blur(50px);
+    border-radius: 50px;
+    box-shadow: 0px 0px 40px white;
+    padding: 30px;
+}
+
+.heading{
+    font-size: 30px;
+    color: #40E0D0;
+    text-align: center;
+    font-family: Arial black;
+
+}
+.create-account{
+    margin-top: 30px;
+}
+
+.fld{
+    width: 88%;
+    margin-top: 13px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background: transparent;
+    border-bottom: 3px solid white;
+    padding-left: 20px;
+}
+
+.btn{
+    width: 40%;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color:#40E0D0;;
+    border-radius: 10px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+    color: white;
+}
+.btn:hover
+{
+    background-color: white;
+    cursor: pointer;
+    font-size: 25px;
+    color: #40E0D0;
+}
